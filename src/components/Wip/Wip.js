@@ -1,11 +1,11 @@
 import React from 'react';
-import logo from '../../media/dog_on_pc.png'
+import logo from '../../media/dog_on_pc.jpg'
 
 const Wip = () => {
 	return (
 		<div>
 			<h1>I'm working on it</h1>
-			<img src={logo} />
+			<img alt={'dog_on_pc.jpg'} src={logo} />
 		</div>
 		)
 }
