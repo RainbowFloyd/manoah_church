@@ -6,7 +6,7 @@ const Wip = () => {
 		<div>
 			<h1>I'm working on it</h1>
 			<img src={logo} />
-		<div>
+		</div>
 		)
 }
 
