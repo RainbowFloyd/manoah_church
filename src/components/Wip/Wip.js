@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../../../media/dog_on_pc.png'
+import logo from '../../media/dog_on_pc.png'
 
 const Wip = () => {
 	return (
