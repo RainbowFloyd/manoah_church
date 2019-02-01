@@ -7,3 +7,5 @@ const Wip = () => {
 		<img src={logo} />
 		)
 }
+
+export default Wip;
