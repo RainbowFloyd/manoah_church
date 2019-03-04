@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const NavbarItem = (props) => {
   const tabName = props.tab;
@@ -6,7 +7,7 @@ const NavbarItem = (props) => {
 
 	return (
 		<span>
-			<button><a href={'/' + tabRefernce}>{tabName}</a></button>
+			<button><Link to={'/' + tabRefernce}>{tabName}</Link></button>
 		</span>
 	)
 }
