@@ -1,10 +1,12 @@
 import React from 'react';
 
 const NavbarItem = (props) => {
-  const tabName = props.tab.toLowerCase();
+  const tabName = props.tab;
+  const tabRefernce = tabName === 'Home' ? '' : tabName.toLowerCase();
+
 	return (
 		<span>
-			<button><a href={'/' + tabName}>{tabName}</a></button>
+			<button><a href={'/' + tabRefernce}>{tabName}</a></button>
 		</span>
 	)
 }
